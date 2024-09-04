@@ -1,0 +1,20 @@
+/* Center the video and make it bigger */
+.video-container-class {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Adjust the layout of other UI elements */
+.like-button-class {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+/* Hide unnecessary elements */
+.sidebar-class {
+  display: none;
+}
