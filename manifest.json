@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok YouTube Shorts UI",
+  "version": "1.0",
+  "description": "Modifies TikTok's UI to resemble YouTube Shorts.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.tiktok.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
